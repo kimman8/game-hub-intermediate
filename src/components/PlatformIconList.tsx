@@ -29,7 +29,7 @@ const PlatformIconList = ({ platforms = [] }: Props) => {
     ios: MdPhoneIphone,
     web: BsGlobe,
   };
-
+ 
   return (
     <HStack marginY={1}>
       {platforms.map((platform) => (
