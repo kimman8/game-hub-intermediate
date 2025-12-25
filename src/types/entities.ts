@@ -27,3 +27,10 @@ export interface Publisher {
   id: number;
   name: string;
 }
+
+export interface Trailer {
+  id: number;
+  name: string;
+  preview: string;
+  data: { 480: string; max: string };
+}
