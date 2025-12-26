@@ -9,6 +9,7 @@ export interface Game {
   slug: string;
   rating_top: number;
   description_raw: string;
+  game_pk: string;
 }
 
 export interface Platform {
@@ -33,4 +34,11 @@ export interface Trailer {
   name: string;
   preview: string;
   data: { 480: string; max: string };
+}
+
+export interface Screenshots {
+  id: number;
+  image: string;
+  width: number;
+  height: number;
 }
